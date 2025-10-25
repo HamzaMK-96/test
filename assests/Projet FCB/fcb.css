@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    height: 100%;
+    background-color: grey;
+     align-items: center;
+    justify-items: center;
+    display: flex;
+
+}
+
+section {
+    border: solid 3px black;
+    width: 500px;
+    height: 650px;
+    background-color: white;
+    margin: 0px auto ;
+    padding: 10px ;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px ;
+    overflow: hidden;
+
+
+}
+
+img {
+   
+    width: 500px;
+    height: 300px;
+}
+
+.header {
+    background-color: #3b5998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    gap: 10px;
+
+}
+
+.header table {
+
+    width: 500px;
+    height: 40px;
+}
+
+.header table input {
+    background-color: #3b5998;
+    width: 400px;
+    border-radius: 3%;
+    color: gray;
+    border: none;
+    margin: 0px auto;
+    outline: none;
+   
+}
+
+h2 {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+#cont1 { 
+    padding: 5%;
+    margin-left: -5%;
+    display: flex;
+    height: 20%;
+
+
+   
+ 
+ 
+}
+
+.content1 {
+
+     display: flex;
+    padding: 10px 15px;
+    align-items: center;
+}
+   
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    gap: 0.5px;
+    
+}
+
+#li1 {
+    margin-left: 15px;
+    margin-right: 120px;
+
+}
+
+#ico1 {
+
+    background-color: rgb(241, 139, 173);
+    border-radius: 50%;
+    border: solid palevioletred 1;
+    align-items: center;
+    justify-items: center;
+    padding: 0.5px;
+    
+}
+
+#ico2 {
+
+    background-color: rgb(71, 109, 193);
+    border-radius: 50%;
+    border: solid rgb(71, 109, 193) ;
+    align-items: center;
+    justify-items: center;
+    padding: 0.2px;
+
+}
+
+.list3 table {
+
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    height: 50px;
+    gap: 400px;
+    overflow: hidden;
+}
+
+.list3 th {
+
+    border-right: none;
+    padding: 12px 0;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: center;
+    justify-items: center;
+}
+
+span {
+    color: rgb(152, 149, 149);
+    display: flex;
+    margin-top: 60px;
+    margin-left: -150px;
+    gap: 10px;
+    
+}
+
+#i1 {
+    margin-left: 180px;
+}
+
+
+.table2 {
+
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 250, 250);
+    gap: 20%;
+    padding: 7px;
+    font-size :larger;
+    
+    
+    }
